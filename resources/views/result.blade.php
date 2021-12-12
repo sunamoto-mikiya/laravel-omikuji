@@ -19,6 +19,9 @@
 
 <body class="vh-100 d-flex align-items-center justify-content-center text-center">
     <div class="content mt-3">
+        <div>
+            <img src="{{asset('img/'. $result_img)}}" alt=logo>
+        </div>
         <div class="text-black mt-3">
             <p>{{$result}}</p>
         </div>
@@ -27,6 +30,7 @@
                 もう1回おみくじを引く
             </a>
         </div>
+
     </div>
 </body>
 

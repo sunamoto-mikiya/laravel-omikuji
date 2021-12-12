@@ -18,7 +18,10 @@
 </head>
 
 <body class="vh-100 d-flex align-items-center justify-content-center text-center">
-    <div>
+    <div class="content">
+        <div>
+            <img src='{{asset("img\omikuji_main.jpg")}}'>
+        </div>
         <div class="mt-3">
             <a href="{{route('result.create')}}" class="btn btn-outline-secondary">
                 おみくじを引く
